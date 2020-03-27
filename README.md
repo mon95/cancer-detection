@@ -1,10 +1,10 @@
 # Cancer detection using CNNs
 
-Link to project webpage:
+Link to project webpage: [Project Webpage](https://mon95.github.io/cancer-detection/)
 
 #### A brief summary: 
 
-Our project focuses on detecting the presence of malignant tumors in chest X-rays. In order to aid radiologists around the world, we propose to exploit supervised and unsupervised Machine Learning algorithms for lung cancer detection. We aim to showcase ‘explainable’ models [3] that could perform close to human accuracy levels for cancer-detection. 
+Our project focuses on detecting the presence of malignant tumors in chest X-rays. In order to aid radiologists around the world, we propose to exploit supervised and unsupervised Machine Learning algorithms for lung cancer detection. We aim to showcase ‘explainable’ models that could perform close to human accuracy levels for cancer-detection. 
 
 
 #### What’s new in our approach:
