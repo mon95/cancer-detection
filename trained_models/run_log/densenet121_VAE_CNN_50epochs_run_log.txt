@@ -1,0 +1,295 @@
+Initializing to use pre-trained DenseNet 121 for feature extraction...
+
+Downloading: "https://download.pytorch.org/models/densenet121-a639ec97.pth" to /root/.cache/torch/checkpoints/densenet121-a639ec97.pth
+100%|██████████| 30.8M/30.8M [00:00<00:00, 126MB/s]
+
+Dataset sizes: 
+ {'train': 14866, 'val': 2950, 'test': 2949}
+Params to learn:
+     classifier.weight
+     classifier.bias
+Epoch 0/49
+----------
+train Loss: 2.5510 Acc: 0.5385
+val Loss: 3.8243 Acc: 0.5393
+
+Epoch 1/49
+----------
+train Loss: 2.7888 Acc: 0.5562
+val Loss: 1.2640 Acc: 0.6434
+
+Epoch 2/49
+----------
+train Loss: 2.8982 Acc: 0.5450
+val Loss: 4.8312 Acc: 0.5264
+
+Epoch 3/49
+----------
+train Loss: 2.6433 Acc: 0.5571
+val Loss: 1.5477 Acc: 0.6061
+
+Epoch 4/49
+----------
+train Loss: 2.5168 Acc: 0.5501
+val Loss: 1.6694 Acc: 0.6207
+
+Epoch 5/49
+----------
+train Loss: 2.8749 Acc: 0.5405
+val Loss: 1.1389 Acc: 0.6647
+
+Epoch 6/49
+----------
+train Loss: 2.7856 Acc: 0.5465
+val Loss: 1.6068 Acc: 0.5841
+
+Epoch 7/49
+----------
+train Loss: 2.6117 Acc: 0.5496
+val Loss: 10.5260 Acc: 0.5085
+
+Epoch 8/49
+----------
+train Loss: 2.6137 Acc: 0.5529
+val Loss: 1.5592 Acc: 0.5851
+
+Epoch 9/49
+----------
+train Loss: 2.5518 Acc: 0.5451
+val Loss: 2.2915 Acc: 0.5844
+
+Epoch 10/49
+----------
+train Loss: 2.9383 Acc: 0.5480
+val Loss: 5.1716 Acc: 0.4949
+
+Epoch 11/49
+----------
+train Loss: 2.4742 Acc: 0.5405
+val Loss: 2.4540 Acc: 0.5797
+
+Epoch 12/49
+----------
+train Loss: 2.8924 Acc: 0.5482
+val Loss: 1.2848 Acc: 0.6803
+
+Epoch 13/49
+----------
+train Loss: 2.5689 Acc: 0.5472
+val Loss: 1.5924 Acc: 0.6149
+
+Epoch 14/49
+----------
+train Loss: 2.5453 Acc: 0.5546
+val Loss: 1.5840 Acc: 0.6261
+
+Epoch 15/49
+----------
+train Loss: 2.5615 Acc: 0.5504
+val Loss: 1.6076 Acc: 0.6292
+
+Epoch 16/49
+----------
+train Loss: 2.6778 Acc: 0.5525
+val Loss: 1.5276 Acc: 0.6481
+
+Epoch 17/49
+----------
+train Loss: 2.5819 Acc: 0.5546
+val Loss: 2.0789 Acc: 0.5692
+
+Epoch 18/49
+----------
+train Loss: 2.7244 Acc: 0.5552
+val Loss: 9.4204 Acc: 0.5088
+
+Epoch 19/49
+----------
+train Loss: 2.9419 Acc: 0.5496
+val Loss: 2.0571 Acc: 0.6095
+
+Epoch 20/49
+----------
+train Loss: 2.3459 Acc: 0.5543
+val Loss: 1.4566 Acc: 0.6492
+
+Epoch 21/49
+----------
+train Loss: 2.8590 Acc: 0.5443
+val Loss: 6.1470 Acc: 0.5034
+
+Epoch 22/49
+----------
+train Loss: 2.5840 Acc: 0.5550
+val Loss: 3.8086 Acc: 0.5146
+
+Epoch 23/49
+----------
+train Loss: 2.7155 Acc: 0.5468
+val Loss: 1.3136 Acc: 0.6095
+
+Epoch 24/49
+----------
+train Loss: 2.7464 Acc: 0.5548
+val Loss: 1.8738 Acc: 0.6332
+
+Epoch 25/49
+----------
+train Loss: 2.3599 Acc: 0.5555
+val Loss: 1.2330 Acc: 0.6719
+
+Epoch 26/49
+----------
+train Loss: 2.5673 Acc: 0.5475
+val Loss: 2.3309 Acc: 0.5936
+
+Epoch 27/49
+----------
+train Loss: 2.9224 Acc: 0.5511
+val Loss: 1.8197 Acc: 0.6054
+
+Epoch 28/49
+----------
+train Loss: 2.6265 Acc: 0.5531
+val Loss: 4.7528 Acc: 0.4959
+
+Epoch 29/49
+----------
+train Loss: 2.6176 Acc: 0.5509
+val Loss: 4.4541 Acc: 0.5186
+
+Epoch 30/49
+----------
+train Loss: 2.6578 Acc: 0.5521
+val Loss: 2.1913 Acc: 0.5695
+
+Epoch 31/49
+----------
+train Loss: 2.4888 Acc: 0.5546
+val Loss: 1.7865 Acc: 0.5654
+
+Epoch 32/49
+----------
+train Loss: 2.8053 Acc: 0.5495
+val Loss: 4.9984 Acc: 0.5176
+
+Epoch 33/49
+----------
+train Loss: 2.8263 Acc: 0.5492
+val Loss: 2.8088 Acc: 0.5180
+
+Epoch 34/49
+----------
+train Loss: 2.6733 Acc: 0.5512
+val Loss: 2.5015 Acc: 0.5556
+
+Epoch 35/49
+----------
+train Loss: 2.7506 Acc: 0.5484
+val Loss: 2.9435 Acc: 0.5454
+
+Epoch 36/49
+----------
+train Loss: 2.7580 Acc: 0.5501
+val Loss: 3.2555 Acc: 0.5492
+
+Epoch 37/49
+----------
+train Loss: 2.7737 Acc: 0.5498
+val Loss: 1.7895 Acc: 0.5736
+
+Epoch 38/49
+----------
+train Loss: 2.9629 Acc: 0.5476
+val Loss: 4.3286 Acc: 0.5390
+
+Epoch 39/49
+----------
+train Loss: 2.4252 Acc: 0.5527
+val Loss: 2.9629 Acc: 0.5386
+
+Epoch 40/49
+----------
+train Loss: 2.5042 Acc: 0.5493
+val Loss: 3.6282 Acc: 0.5302
+
+Epoch 41/49
+----------
+train Loss: 2.8673 Acc: 0.5523
+val Loss: 3.4395 Acc: 0.5495
+
+Epoch 42/49
+----------
+train Loss: 2.7250 Acc: 0.5509
+val Loss: 1.4454 Acc: 0.6539
+
+Epoch 43/49
+----------
+train Loss: 2.5022 Acc: 0.5473
+val Loss: 1.1588 Acc: 0.7193
+
+Epoch 44/49
+----------
+train Loss: 2.7078 Acc: 0.5413
+val Loss: 2.8813 Acc: 0.5505
+
+Epoch 45/49
+----------
+train Loss: 2.4810 Acc: 0.5570
+val Loss: 1.2015 Acc: 0.6641
+
+Epoch 46/49
+----------
+train Loss: 2.5940 Acc: 0.5450
+val Loss: 1.7440 Acc: 0.6281
+
+Epoch 47/49
+----------
+train Loss: 2.4751 Acc: 0.5484
+val Loss: 4.4646 Acc: 0.5064
+
+Epoch 48/49
+----------
+train Loss: 2.4353 Acc: 0.5519
+val Loss: 6.9836 Acc: 0.5092
+
+Epoch 49/49
+----------
+train Loss: 2.6318 Acc: 0.5491
+val Loss: 1.1876 Acc: 0.6637
+
+Training complete in 76m 34s
+Best val Acc: 0.719322
+Validation Accuracy History:
+[tensor(0.5393, device='cuda:0', dtype=torch.float64), tensor(0.6434, device='cuda:0', dtype=torch.float64), tensor(0.5264, device='cuda:0', dtype=torch.float64), tensor(0.6061, device='cuda:0', dtype=torch.float64), tensor(0.6207, device='cuda:0', dtype=torch.float64), tensor(0.6647, device='cuda:0', dtype=torch.float64), tensor(0.5841, device='cuda:0', dtype=torch.float64), tensor(0.5085, device='cuda:0', dtype=torch.float64), tensor(0.5851, device='cuda:0', dtype=torch.float64), tensor(0.5844, device='cuda:0', dtype=torch.float64), tensor(0.4949, device='cuda:0', dtype=torch.float64), tensor(0.5797, device='cuda:0', dtype=torch.float64), tensor(0.6803, device='cuda:0', dtype=torch.float64), tensor(0.6149, device='cuda:0', dtype=torch.float64), tensor(0.6261, device='cuda:0', dtype=torch.float64), tensor(0.6292, device='cuda:0', dtype=torch.float64), tensor(0.6481, device='cuda:0', dtype=torch.float64), tensor(0.5692, device='cuda:0', dtype=torch.float64), tensor(0.5088, device='cuda:0', dtype=torch.float64), tensor(0.6095, device='cuda:0', dtype=torch.float64), tensor(0.6492, device='cuda:0', dtype=torch.float64), tensor(0.5034, device='cuda:0', dtype=torch.float64), tensor(0.5146, device='cuda:0', dtype=torch.float64), tensor(0.6095, device='cuda:0', dtype=torch.float64), tensor(0.6332, device='cuda:0', dtype=torch.float64), tensor(0.6719, device='cuda:0', dtype=torch.float64), tensor(0.5936, device='cuda:0', dtype=torch.float64), tensor(0.6054, device='cuda:0', dtype=torch.float64), tensor(0.4959, device='cuda:0', dtype=torch.float64), tensor(0.5186, device='cuda:0', dtype=torch.float64), tensor(0.5695, device='cuda:0', dtype=torch.float64), tensor(0.5654, device='cuda:0', dtype=torch.float64), tensor(0.5176, device='cuda:0', dtype=torch.float64), tensor(0.5180, device='cuda:0', dtype=torch.float64), tensor(0.5556, device='cuda:0', dtype=torch.float64), tensor(0.5454, device='cuda:0', dtype=torch.float64), tensor(0.5492, device='cuda:0', dtype=torch.float64), tensor(0.5736, device='cuda:0', dtype=torch.float64), tensor(0.5390, device='cuda:0', dtype=torch.float64), tensor(0.5386, device='cuda:0', dtype=torch.float64), tensor(0.5302, device='cuda:0', dtype=torch.float64), tensor(0.5495, device='cuda:0', dtype=torch.float64), tensor(0.6539, device='cuda:0', dtype=torch.float64), tensor(0.7193, device='cuda:0', dtype=torch.float64), tensor(0.5505, device='cuda:0', dtype=torch.float64), tensor(0.6641, device='cuda:0', dtype=torch.float64), tensor(0.6281, device='cuda:0', dtype=torch.float64), tensor(0.5064, device='cuda:0', dtype=torch.float64), tensor(0.5092, device='cuda:0', dtype=torch.float64), tensor(0.6637, device='cuda:0', dtype=torch.float64)]
+
+Per epoch loss:
+[2.5509688010747253, 2.788822321556273, 2.898152682757323, 2.6433303123621927, 2.516785510657181, 2.8749343886135503, 2.785610158551225, 2.6117039275501357, 2.6136614293277014, 2.551785733699638, 2.9383461518915057, 2.4742082971054598, 2.8923829324061336, 2.5689231145875895, 2.5453274529209278, 2.56149359771321, 2.67778723941835, 2.581936991765652, 2.724373713761195, 2.941897358573431, 2.3458541403500144, 2.8590358589012435, 2.58404978181173, 2.715453804112629, 2.7464351515285297, 2.3599383960008526, 2.5672828224567166, 2.922449993514668, 2.626523106540499, 2.617603782706236, 2.657752986288193, 2.488784563300043, 2.8052875443653513, 2.826334367461726, 2.673270865166218, 2.7505724909736027, 2.757950905713967, 2.773740172702917, 2.962886384918987, 2.4251534261534133, 2.5041857313800273, 2.8673485825027476, 2.725000001857984, 2.502218446808709, 2.7077684741225165, 2.480974731792692, 2.5940025471973818, 2.4751197348913756, 2.4353000479921363, 2.6317860246642866]
+
+Per epoch accuracy:
+[tensor(0.5385, device='cuda:0', dtype=torch.float64), tensor(0.5562, device='cuda:0', dtype=torch.float64), tensor(0.5450, device='cuda:0', dtype=torch.float64), tensor(0.5571, device='cuda:0', dtype=torch.float64), tensor(0.5501, device='cuda:0', dtype=torch.float64), tensor(0.5405, device='cuda:0', dtype=torch.float64), tensor(0.5465, device='cuda:0', dtype=torch.float64), tensor(0.5496, device='cuda:0', dtype=torch.float64), tensor(0.5529, device='cuda:0', dtype=torch.float64), tensor(0.5451, device='cuda:0', dtype=torch.float64), tensor(0.5480, device='cuda:0', dtype=torch.float64), tensor(0.5405, device='cuda:0', dtype=torch.float64), tensor(0.5482, device='cuda:0', dtype=torch.float64), tensor(0.5472, device='cuda:0', dtype=torch.float64), tensor(0.5546, device='cuda:0', dtype=torch.float64), tensor(0.5504, device='cuda:0', dtype=torch.float64), tensor(0.5525, device='cuda:0', dtype=torch.float64), tensor(0.5546, device='cuda:0', dtype=torch.float64), tensor(0.5552, device='cuda:0', dtype=torch.float64), tensor(0.5496, device='cuda:0', dtype=torch.float64), tensor(0.5543, device='cuda:0', dtype=torch.float64), tensor(0.5443, device='cuda:0', dtype=torch.float64), tensor(0.5550, device='cuda:0', dtype=torch.float64), tensor(0.5468, device='cuda:0', dtype=torch.float64), tensor(0.5548, device='cuda:0', dtype=torch.float64), tensor(0.5555, device='cuda:0', dtype=torch.float64), tensor(0.5475, device='cuda:0', dtype=torch.float64), tensor(0.5511, device='cuda:0', dtype=torch.float64), tensor(0.5531, device='cuda:0', dtype=torch.float64), tensor(0.5509, device='cuda:0', dtype=torch.float64), tensor(0.5521, device='cuda:0', dtype=torch.float64), tensor(0.5546, device='cuda:0', dtype=torch.float64), tensor(0.5495, device='cuda:0', dtype=torch.float64), tensor(0.5492, device='cuda:0', dtype=torch.float64), tensor(0.5512, device='cuda:0', dtype=torch.float64), tensor(0.5484, device='cuda:0', dtype=torch.float64), tensor(0.5501, device='cuda:0', dtype=torch.float64), tensor(0.5498, device='cuda:0', dtype=torch.float64), tensor(0.5476, device='cuda:0', dtype=torch.float64), tensor(0.5527, device='cuda:0', dtype=torch.float64), tensor(0.5493, device='cuda:0', dtype=torch.float64), tensor(0.5523, device='cuda:0', dtype=torch.float64), tensor(0.5509, device='cuda:0', dtype=torch.float64), tensor(0.5473, device='cuda:0', dtype=torch.float64), tensor(0.5413, device='cuda:0', dtype=torch.float64), tensor(0.5570, device='cuda:0', dtype=torch.float64), tensor(0.5450, device='cuda:0', dtype=torch.float64), tensor(0.5484, device='cuda:0', dtype=torch.float64), tensor(0.5519, device='cuda:0', dtype=torch.float64), tensor(0.5491, device='cuda:0', dtype=torch.float64)]
+Saving per_epoch_losses, per_epoch_accuracy to disk for analysis...
+Saving final model to disk...
+Running independent test...
+Accuracy (Sklearn): 0.7310952865378094
+F1-Score (Sklearn): 0.742448847028256
+Precision Score: 0.7012269938650306
+Recall Score: 0.7888198757763976
+
+Confusion Matrix:
+[[1013  487]
+ [ 306 1143]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.68      0.72      1500
+           1       0.70      0.79      0.74      1449
+
+    accuracy                           0.73      2949
+   macro avg       0.73      0.73      0.73      2949
+weighted avg       0.74      0.73      0.73      2949
+
+
+
+Accuracy of the network on the test images: 73 %

@@ -1,0 +1,135 @@
+Epoch 0/19
+----------
+train Loss: 0.7497 Acc: 0.5611
+val Loss: 0.7264 Acc: 0.5810
+
+Epoch 1/19
+----------
+train Loss: 0.7699 Acc: 0.5664
+val Loss: 0.5646 Acc: 0.7176
+
+Epoch 2/19
+----------
+train Loss: 0.7638 Acc: 0.5613
+val Loss: 0.6970 Acc: 0.6251
+
+Epoch 3/19
+----------
+train Loss: 0.7530 Acc: 0.5691
+val Loss: 0.5959 Acc: 0.6814
+
+Epoch 4/19
+----------
+train Loss: 0.7565 Acc: 0.5724
+val Loss: 0.5814 Acc: 0.7024
+
+Epoch 5/19
+----------
+train Loss: 0.7598 Acc: 0.5704
+val Loss: 0.6249 Acc: 0.6471
+
+Epoch 6/19
+----------
+train Loss: 0.7590 Acc: 0.5709
+val Loss: 0.6328 Acc: 0.6420
+
+Epoch 7/19
+----------
+train Loss: 0.7512 Acc: 0.5695
+val Loss: 0.6217 Acc: 0.6651
+
+Epoch 8/19
+----------
+train Loss: 0.7583 Acc: 0.5735
+val Loss: 0.5595 Acc: 0.7247
+
+Epoch 9/19
+----------
+train Loss: 0.7515 Acc: 0.5739
+val Loss: 0.6320 Acc: 0.6488
+
+Epoch 10/19
+----------
+train Loss: 0.7580 Acc: 0.5696
+val Loss: 0.7924 Acc: 0.5661
+
+Epoch 11/19
+----------
+train Loss: 0.7535 Acc: 0.5697
+val Loss: 0.7480 Acc: 0.5675
+
+Epoch 12/19
+----------
+train Loss: 0.7655 Acc: 0.5613
+val Loss: 0.6256 Acc: 0.6546
+
+Epoch 13/19
+----------
+train Loss: 0.7541 Acc: 0.5764
+val Loss: 0.6313 Acc: 0.6410
+
+Epoch 14/19
+----------
+train Loss: 0.7611 Acc: 0.5753
+val Loss: 0.7274 Acc: 0.5888
+
+Epoch 15/19
+----------
+train Loss: 0.7560 Acc: 0.5764
+val Loss: 0.6963 Acc: 0.5946
+
+Epoch 16/19
+----------
+train Loss: 0.7471 Acc: 0.5743
+val Loss: 0.5909 Acc: 0.6844
+
+Epoch 17/19
+----------
+train Loss: 0.7663 Acc: 0.5627
+val Loss: 0.6789 Acc: 0.6163
+
+Epoch 18/19
+----------
+train Loss: 0.7633 Acc: 0.5698
+val Loss: 0.6826 Acc: 0.6098
+
+Epoch 19/19
+----------
+train Loss: 0.7666 Acc: 0.5715
+val Loss: 0.6012 Acc: 0.6715
+
+Training complete in 700m 14s
+Best val Acc: 0.724746
+Validation Accuracy History:
+[tensor(0.5810, dtype=torch.float64), tensor(0.7176, dtype=torch.float64), tensor(0.6251, dtype=torch.float64), tensor(0.6814, dtype=torch.float64), tensor(0.7024, dtype=torch.float64), tensor(0.6471, dtype=torch.float64), tensor(0.6420, dtype=torch.float64), tensor(0.6651, dtype=torch.float64), tensor(0.7247, dtype=torch.float64), tensor(0.6488, dtype=torch.float64), tensor(0.5661, dtype=torch.float64), tensor(0.5675, dtype=torch.float64), tensor(0.6546, dtype=torch.float64), tensor(0.6410, dtype=torch.float64), tensor(0.5888, dtype=torch.float64), tensor(0.5946, dtype=torch.float64), tensor(0.6844, dtype=torch.float64), tensor(0.6163, dtype=torch.float64), tensor(0.6098, dtype=torch.float64), tensor(0.6715, dtype=torch.float64)]
+
+Per epoch loss:
+[0.7497446555727382, 0.7698735254058166, 0.7637526779352102, 0.7529526717462185, 0.7564930798069605, 0.7597924734095072, 0.7590355360624608, 0.7511929571138669, 0.7583493968605295, 0.7515207305066506, 0.7579672428166563, 0.7535289092026578, 0.7654544204508489, 0.7541473869008327, 0.761061116347341, 0.755978272423119, 0.7470876422553613, 0.7663173622627781, 0.7633255117746716, 0.7666208920740102]
+
+Per epoch accuracy:
+[tensor(0.5611, dtype=torch.float64), tensor(0.5664, dtype=torch.float64), tensor(0.5613, dtype=torch.float64), tensor(0.5691, dtype=torch.float64), tensor(0.5724, dtype=torch.float64), tensor(0.5704, dtype=torch.float64), tensor(0.5709, dtype=torch.float64), tensor(0.5695, dtype=torch.float64), tensor(0.5735, dtype=torch.float64), tensor(0.5739, dtype=torch.float64), tensor(0.5696, dtype=torch.float64), tensor(0.5697, dtype=torch.float64), tensor(0.5613, dtype=torch.float64), tensor(0.5764, dtype=torch.float64), tensor(0.5753, dtype=torch.float64), tensor(0.5764, dtype=torch.float64), tensor(0.5743, dtype=torch.float64), tensor(0.5627, dtype=torch.float64), tensor(0.5698, dtype=torch.float64), tensor(0.5715, dtype=torch.float64)]
+Saving per_epoch_losses, per_epoch_accuracy to disk for analysis...
+Saving final model to disk...
+Running independent test...
+Accuracy (Sklearn): 0.7266870125466259
+F1-Score (Sklearn): 0.7353906762967827
+Precision Score: 0.7013149655604258
+Recall Score: 0.7729468599033816
+
+Confusion Matrix:
+[[1023  477]
+ [ 329 1120]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.68      0.72      1500
+           1       0.70      0.77      0.74      1449
+
+    accuracy                           0.73      2949
+   macro avg       0.73      0.73      0.73      2949
+weighted avg       0.73      0.73      0.73      2949
+
+
+
+Accuracy of the network on the test images: 72 %

@@ -1,0 +1,31 @@
+[{
+    "learningRate": 0.001,
+    "batchSize": 8,
+    "momentum": 0.9,
+    "epochs": 15
+},{
+    "learningRate": 0.01,
+    "batchSize": 8,
+    "momentum": 0.9,
+    "epochs": 15
+},{
+    "learningRate": 0.1,
+    "batchSize": 8,
+    "momentum": 0.9,
+    "epochs": 15
+},{
+    "learningRate": 0.001,
+    "batchSize": 8,
+    "momentum": 0.8,
+    "epochs": 15
+},{
+    "learningRate": 0.01,
+    "batchSize": 8,
+    "momentum": 0.8,
+    "epochs": 15
+},{
+    "learningRate": 0.1,
+    "batchSize": 8,
+    "momentum": 0.8,
+    "epochs": 15
+}]

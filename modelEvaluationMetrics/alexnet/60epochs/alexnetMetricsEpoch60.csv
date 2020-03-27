@@ -1,0 +1,2 @@
+learningRate,momentum,epochs,batchSize,valAccuracy
+0.01,60,0.9,8,"tensor(0.7095, device='cuda:0', dtype=torch.float64)"

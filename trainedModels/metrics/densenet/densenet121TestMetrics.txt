@@ -1,0 +1,22 @@
+Accuracy (Sklearn): 0.7266870125466259
+F1-Score (Sklearn): 0.7353906762967827
+Precision Score: 0.7013149655604258
+Recall Score: 0.7729468599033816
+
+Confusion Matrix:
+[[1023  477]
+ [ 329 1120]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.68      0.72      1500
+           1       0.70      0.77      0.74      1449
+
+    accuracy                           0.73      2949
+   macro avg       0.73      0.73      0.73      2949
+weighted avg       0.73      0.73      0.73      2949
+
+
+
+Accuracy of the network on the test images: 72 %
