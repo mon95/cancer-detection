@@ -15,7 +15,7 @@ Our project focuses on detecting the presence of malignant tumors in chest X-ray
 
 
  
+Note: This repo has been moved (partially) from our internal private repository to serve as documentation and only certain code snippets we used are shared here.
 
-
-
+For more info, please reach out over email.
 
